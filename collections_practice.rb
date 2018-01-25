@@ -14,11 +14,13 @@ end
 end
 
 
-#absolutely not right way to solve this
+
 def swap_elements(array)
 
   array[1], array[2] = array[2], array[1]
-  array 
+  array
+
+
 # array.push(array[1])
 # array.delete_at(1)
 # array
@@ -56,7 +58,7 @@ array.inject(:+)
 end
 
 
-#also absolutely not right way to solve this
+
 def add_s(array)
 new_array = array.map do |word|
   word = word + "s"
