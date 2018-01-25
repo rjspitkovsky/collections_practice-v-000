@@ -16,9 +16,12 @@ end
 
 #absolutely not right way to solve this
 def swap_elements(array)
-array.push(array[1])
-array.delete_at(1)
-array
+
+  array[1], array[2] = array[2], array[1]
+  array 
+# array.push(array[1])
+# array.delete_at(1)
+# array
 end
 
 
